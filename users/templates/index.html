@@ -1,34 +1,106 @@
-
+<!-- users/templates/index.html -->
 <!DOCTYPE html>
 <html lang="uz">
 <head>
     <meta charset="UTF-8">
-    <title>Mening Profilim</title>
+    <title>Gavhar Olimova - Portfolio</title>
     <style>
         body {
-            font-family: Arial, sans-serif;
-            background: #f0f4f8;
-            color: #333;
+            background: #f8f9fa;
+            font-family: 'Segoe UI', sans-serif;
+            margin: 0;
+            padding: 0;
+        }
+
+        .container {
+            max-width: 900px;
+            margin: 40px auto;
+            background: white;
             padding: 40px;
+            border-radius: 12px;
+            box-shadow: 0 10px 30px rgba(0,0,0,0.1);
         }
-        .card {
-            background: #fff;
-            border-radius: 10px;
-            padding: 30px;
-            max-width: 600px;
-            margin: auto;
-            box-shadow: 0 4px 8px rgba(0,0,0,0.1);
-        }
+
         h1 {
             color: #005f73;
+            margin-bottom: 5px;
+        }
+
+        h2 {
+            color: #0a9396;
+            margin-top: 30px;
+        }
+
+        p {
+            line-height: 1.6;
+        }
+
+        ul {
+            line-height: 1.8;
+        }
+
+        .section {
+            margin-bottom: 30px;
+        }
+
+        .badge {
+            display: inline-block;
+            background: #94d2bd;
+            color: #003049;
+            padding: 4px 10px;
+            border-radius: 20px;
+            font-size: 13px;
+            margin: 2px;
+        }
+
+        footer {
+            text-align: center;
+            padding-top: 20px;
+            color: #666;
         }
     </style>
 </head>
 <body>
-    <div class="card">
-        <h1>Salom, men Gavharman!</h1>
-        <p>Men Python va Django texnologiyalarini o‘rganayotgan dasturchiman. Hozirda portfolio loyiham ustida ishlayapman.</p>
-        <p>Men to‘liq stack dasturchi bo‘lishni maqsad qilganman va har kuni frontend va backend bo‘yicha mashq qilaman.</p>
+    <div class="container">
+        <h1>Gavhar Olimova</h1>
+        <p><strong>To‘liq Stack Dasturchi | Python | Django | Frontend Enthusiast</strong></p>
+
+        <div class="section">
+            <h2>👩‍💻 Men haqimda</h2>
+            <p>Men Gavharman. Texnologiyalarga qiziqaman va dasturlash sohasida o‘sishga harakat qilaman. Hozirda Python va Django frameworklarini chuqur o‘rganmoqdaman. Maqsadim — to‘liq stack web dasturchi bo‘lish, mustaqil loyihalar yaratish va jamoalarda ishlash ko‘nikmasini oshirish.</p>
+        </div>
+
+        <div class="section">
+            <h2>🎯 Maqsadlarim</h2>
+            <ul>
+                <li>Backendni chuqur o‘zlashtirib, mustahkam API lar yaratish</li>
+                <li>Frontendda zamonaviy dizayn va funksionallik yaratish (React, TailwindCSS)</li>
+                <li>Portfolio loyihalarimni GitHub orqali namoyish qilish</li>
+                <li>Jamoalarda ishlash, real loyihalarda qatnashish</li>
+            </ul>
+        </div>
+
+        <div class="section">
+            <h2>📚 Texnologiyalar</h2>
+            <span class="badge">Python</span>
+            <span class="badge">Django</span>
+            <span class="badge">HTML</span>
+            <span class="badge">CSS</span>
+            <span class="badge">JavaScript</span>
+            <span class="badge">Git</span>
+            <span class="badge">PostgreSQL</span>
+        </div>
+
+        <div class="section">
+            <h2>📫 Bog‘lanish</h2>
+            <p>Email: gavhar@example.com</p>
+            <p>GitHub: <a href="https://github.com/GavharSarah" target="_blank">github.com/GavharSarah</a></p>
+            <p>Telegram: @GavharDeveloper</p>
+        </div>
+
+        <footer>
+            <p>&copy; 2025 Gavhar Olimova. Barcha huquqlar himoyalangan.</p>
+        </footer>
     </div>
 </body>
 </html>

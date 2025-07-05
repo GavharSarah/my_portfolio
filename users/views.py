@@ -1,4 +1,6 @@
 from django.shortcuts import render
 
-def index_view(request):
+def my_profile(request):
     return render(request, 'index.html')
+def teacher_view(request):
+    return render(request,'teacher.html')
