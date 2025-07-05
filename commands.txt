@@ -1,0 +1,6 @@
+
+Turgan joyda fayl yaratish uchun
+django-admin startproject core .
+proyektni ishga tushirish
+python manage.py runserver
+
